@@ -1,0 +1,29 @@
+README by Nitzan Rosen
+last update at 18.07.21
+
+For any questions, feel free to contact by email
+	nitzan.rosen@mail.huji.ac.il
+
+=============================
+=       whats inside?       =
+=============================
+Matlab scripts for analizing data for "CHAOS" 77336 (Physics_LAB_B)course at The Hebrew University.
+
+---data formats---
+output of Tektronix MDO3024 Oscilloscope, configureded to 2 channels.
+we use the defult generated "import data" functions of Matlab.
+
+--importent--
+notice the difference between "discrete mesurements" and "AM mesurenents":
+The difference is in the way the information is analyzed,
+and in the number of files required for the analysis.
+
+=============================
+=       the scripts:        =
+=============================
+-- AM --
+AM_DrawPhaseSpaceAndBiforcations
+
+-- AC --
+AC_DrawVoltageDiodeInTime
+AC_DrawBiforcations
